@@ -1,0 +1,42 @@
+For the purpose of this project we have taken datasets from two different sources. The data dictionaries of both have been described below
+
+Dataset 1 : Stanford Amazon Reviews Dataset : http://jmcauley.ucsd.edu/data/amazon/links.html
+	
+	Data format - JSON
+	List of Attributes and Thier Description : 
+
+		"reviewerID" - the id of the reviewer
+		"asin" - Amazon product ID
+		"reviewerName" - name of the reviewer
+		"helpful" - the number of times the review was thought to be helpful 
+		"reviewText" - the content of the review 
+		"overall" - the product rating (from 1 to 5)
+		"summary" - title of the review 
+		"unixReviewTime" - the time of the review in UNIX format 
+		"reviewTime" - the time of the review
+
+Dataset 2 : AWS Amazon Customer Reviews Dataset : https://s3.amazonaws.com/amazon-reviews-pds/readme.html
+
+	Data format - Tab Separated File (.tsv)
+	List of Attributes and Thier Description : 
+
+		"marketplace"       -2 letter country code of the marketplace where the review was written.
+		"customer_id"       - Random identifier that can be used to aggregate reviews written by a single author.
+		"review_id"         - The unique ID of the review.
+		"product_id"        - The unique Product ID 
+		"product_parent"    - Random identifier that can be used to aggregate reviews for the same product.
+		"product_title"     - Title of the product.
+		"product_category"  - category of the product
+		"star_rating"       - The  rating of the review (from 1-5)
+		"helpful_votes"     - Total number of helpful votes of the review
+		"total_votes"       - total votes the review received.
+		"vine"              - Review was written as part of the Vine program.
+		"verified_purchase" - The review is on a verified purchase.
+		"review_headline"   - The title of the review.
+		"review_body"       - The review text.
+		"review_date"       - The date of the review 
+
+
+
+
+		
